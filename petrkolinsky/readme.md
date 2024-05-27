@@ -3,7 +3,7 @@ Similarly as done in 2018 for the AlpArray records of the teleseismic earthquake
 
 Black stations are those for which data was not available (either the stations are indeed not working, or because some of the temporary stations are not deployed yet).
 
-## Magenta
+### Magenta
 are the stations, for which the deconvolution was not possible due to an error in the metadata. These are usually:
 	
     - different channel names in the data and in the metadata (HH* vs. BH*)
@@ -16,7 +16,7 @@ are the stations, for which the deconvolution was not possible due to an error i
 
     - epoch closed in metadata with a date before the earthquakes
 
-## Red
+### Red
 are the stations, for which the data was deconvolved, but did not pass the quality check for one or more of the reasons:
 	
     - gaps are too long (longer than 18 s)
@@ -31,7 +31,7 @@ are the stations, for which the data was deconvolved, but did not pass the quali
 
 	- there is a significant difference in amplitude between any two components (by order of magnitude)
 
-## Yellow
+### Yellow
 are the stations, where there was an issue, which, however was solved and the data can be used for further surface wave analysis. These issues are:
 
 	- there were more than 3 traces in the stream and they were merged
@@ -42,7 +42,7 @@ are the stations, where there was an issue, which, however was solved and the da
 
 	- there were traces with mixed location codes and channels with the respective code were selected
 
-## Green
+### Green
 are the stations, where there was no problem.
 
 In the text files with the results, as well as in the summary sheet, the respective issues are specified by keywords (not shown in the maps). Both tests were performed on 5. April, 2024.
