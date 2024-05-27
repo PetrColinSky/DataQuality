@@ -4,17 +4,17 @@ Different tests are performed using different codes and by different researchers
 
 ## particular tests
 ### Johannes - availability and retrievability
-Detailed description of the tests performed by Johannes are available at [Johannes' GitHub](https://github.com/doukutsu/eida-data-monitoring/)
-with the [maps] (https://github.com/doukutsu/eida-data-monitoring/tree/main/months) testing the data retrievability for the AdriaArray region by months.
+Detailed description of the tests performed by Johannes is available at [Johannes' GitHub](https://github.com/doukutsu/eida-data-monitoring/)
+with the [maps](https://github.com/doukutsu/eida-data-monitoring/tree/main/months) showing the results of data retrievability for the AdriaArray region by months.
 
 ### Luděk - formal StationXML checks
 Luděk performs detailed formal tests of the metadata, see the [description](https://github.com/PetrColinSky/DataQuality/tree/master/ludekvecsey) and [tables listing the issues](https://github.com/PetrColinSky/DataQuality/tree/master/ludekvecsey/REPORTS).
 
 ### Felix - noise maps
-
+Overview of the methodology is available at [Felix' GitHub](https://github.com/felix-eckel/AdriaArrayQC). You can also check directly [maps of noise levels](https://github.com/felix-eckel/AdriaArrayQC/tree/main/noise_maps).
 
 ### Petr - earthquake data quality
-
+Description of the testing procedure is here at [Petr's GitHub](https://github.com/PetrColinSky/DataQuality/tree/master/petrkolinsky). The results are shown in [maps](https://github.com/PetrColinSky/DataQuality/tree/master/petrkolinsky/maps). There are also [plots of earthquake records](https://github.com/PetrColinSky/DataQuality/tree/master/petrkolinsky/plots).
 
 
 The table lists 2009 stations in the moment. The retrievability tests are shown for every month corresponding to the 22 maps on the left. Eight columns for each month correspond to the BH and HH channels for four parameters: WFCatalog availability, FDSNWS availability, metadata issue and retrievability. On the right side, three columns show the noise test results for the three frequency bands, two other columns show the IRIS validator and corner period test and the last two columns are for the earthquake data quality. White cell means the given parameter was not tested for the particular station. Green means positive results, red is negative, yellow is intermediate or warning.
