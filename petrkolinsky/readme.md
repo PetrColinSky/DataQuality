@@ -26,4 +26,4 @@ Yellow are the stations, where there was an issue, which, however was solved and
 
 Green are the stations, where there was no problem.
 
-	In the text files with the results, as well as in the summary sheet, the respective issues are specified by keywords (not shown in the maps). Both tests were performed on 5. April, 2024.
+In the text files with the results, as well as in the summary sheet, the respective issues are specified by keywords (not shown in the maps). Both tests were performed on 5. April, 2024.
