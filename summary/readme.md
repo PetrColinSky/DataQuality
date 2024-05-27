@@ -4,11 +4,11 @@ Different tests are performed using different codes and by different researchers
 
 ## particular tests
 ### Johannes - availability and retrievability
-Detailed description of the tests performed by Johannes are available at [Johannes' GitHub] (https://github.com/doukutsu/eida-data-monitoring/)
+Detailed description of the tests performed by Johannes are available at [Johannes' GitHub](https://github.com/doukutsu/eida-data-monitoring/)
 with the [maps] (https://github.com/doukutsu/eida-data-monitoring/tree/main/months) testing the data retrievability for the AdriaArray region by months.
 
 ### Luděk - formal StationXML checks
-Luděk performs detailed formal tests of the metadata, see the [description] (https://github.com/PetrColinSky/DataQuality/tree/master/ludekvecsey) and [tables listing the issues] (https://github.com/PetrColinSky/DataQuality/tree/master/ludekvecsey/REPORTS).
+Luděk performs detailed formal tests of the metadata, see the [description](https://github.com/PetrColinSky/DataQuality/tree/master/ludekvecsey) and [tables listing the issues](https://github.com/PetrColinSky/DataQuality/tree/master/ludekvecsey/REPORTS).
 
 ### Felix - noise maps
 
