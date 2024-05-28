@@ -39,11 +39,11 @@ are the stations, where there was an issue, which, however was solved and the da
 
 	- there were more than 3 traces in the stream and they were merged
 
-	- small gaps (up to 10 s) needed to be covered with interpolation
+	- small gaps (up to 18 s) needed to be covered with interpolation
 
-	- traces were overlapping and the selection was made
+	- traces were overlapping and the selection among them was made
 
-	- there were traces with mixed location codes and channels with the respective code were selected
+	- there were traces with mixed location codes and channels with the same location code were selected
 
 ### Green
 are the stations, where there was no problem.
