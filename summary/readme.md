@@ -25,4 +25,7 @@ Different tests are performed using different codes and by different researchers
 
 The table lists 2008 stations in the moment and focuses on the AdriaArray region. We plan to add more stations in the future. The retrievability tests (Johannes) are shown for every month of the AdriaArray operational period since June 2022. Eight columns for each month correspond to the BH and HH channels for four parameters: WFCatalog availability, FDSNWS availability, metadata issue and retrievability. On the right side, three columns show the noise test (Felix) results for the three frequency bands, two other columns show the IRIS validator and corner period test (Luděk) and the last two columns are for the earthquake data quality tests (Petr). White cell means the given parameter was not tested for the particular station. Green means positive results, red is negative, yellow is intermediate or warning.
 
+## EIDA issue tracker
+There is a complementery issue posted at the [EIDA issue tracker](https://github.com/EIDA/userfeedback/issues/166). Some of the issues mentioned there can overlap with those marked in the particular tests, some are given in addition.
+
 this readme file was updated on May 28, 2024
