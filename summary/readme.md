@@ -28,4 +28,4 @@ The table lists 2008 stations in the moment and focuses on the AdriaArray region
 ## EIDA issue tracker
 There is a complementery issue posted at the [EIDA issue tracker](https://github.com/EIDA/userfeedback/issues/166). Some of the issues mentioned there can overlap with those marked in the particular tests, some are given in addition.
 
-this readme file was updated on May 28, 2024
+this readme file was updated on June 03, 2024
