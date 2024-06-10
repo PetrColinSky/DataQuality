@@ -23,11 +23,13 @@ All issues are labeled with 6 grades depending on severity, see issue_id.txt and
 - 0-1 only notifications
 - 2-3 warnings
 - 4-5 errors
+
 The CSV file lists the most severe grades for each station in three columns: 
 - #1: station
 - #2: max severity in 2022+ epoch
-- #3: max severity over all epochs)
-Files for older tests can be found in the REPORTS folder.
+- #3: max severity over all epochs
+
+Files for older tests can be found in the REPORTS folder with the date yymmdd indicating when the test was performed.
 
 ### QC_AdA_metadata_issues.xlsx
 Main output file. Each run of tests has its sheet marked by the date, the last is the most left. Issues are 
