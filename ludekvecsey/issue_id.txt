@@ -1,0 +1,40 @@
+1	-1	META_AVAIL		# metadata availability
+1.01	-1	META_NOT_IN_EIDA	# metadata not found in EIDA
+1.02	-1	META_NOT_ROUTE		# metadata found by the client but not by the routing client
+1.03	2	META_NOT_ADARRAY	# metadata not in _ADARRAY
+2	-1	META_VALID		# metadata FDSNStationXML validation
+2.01	3	META_ATTRIB_MISS	# metadata - missing attribute
+2.02	1	META_CLOCK_VALUE	# metadata - wrong value format in ClockDrift
+3.111   3	META_IRIS_111		# metadata - Station epochs overlap
+3.112.1	1	META_IRIS_112.1		# metadata - Network and/or Station endDates set to future
+3.112.2	3	META_IRIS_112.2		# metadata - Station startDate before Network startDate
+3.211	4	META_IRIS_211		# metadata - Channel epochs overlap
+3.212.2	3	META_IRIS_212.2		# metadata - Channel startDate before Station startDate
+3.222	4	META_IRIS_222		# metadata - Station and Channel Latitudes/Longitudes differ too much
+3.223	4	META_IRIS_223		# metadata - Station and Channel Elevations differ too much
+3.304	1	META_IRIS_304		# metadata - no Sensor Description in Channel
+3.305	4	META_IRIS_305		# metadata - samplerate cannot be 0 or null
+3.310	3	META_IRIS_310		# metadata - Channel.startDate should exist and be before Channel.endDate
+3.320	4	META_IRIS_320		# metadata - missing Azimuth and/or Dip
+3.321	4	META_IRIS_321		# metadata - invalid InputUnits (first Stage) and/or OutputUnits (last Stage)
+3.332	1       META_IRIS_332		# metadata - mis-orientation >= 5, component code should be one of [123]
+3.402.1	0	META_IRIS_402.1		# metadata - case inconsistency in Input/OutputUnits
+3.402.2	3	META_IRIS_402.2		# metadata - invalid Input/OutputUnits
+3.402.3	4	META_IRIS_402.3		# metadata - invalid InputUnits in the first Stage
+3.403	4	META_IRIS_403		# metadata - Input/OutputUnits do not follow in Stages
+3.404	5	META_IRIS_404		# metadata - missing Decimation and/or StageGain in Stage(s)
+3.410	4	META_IRIS_410		# metadata - missing Value in InstrumentSensitivity
+3.411	3	META_IRIS_411		# metadata - InstrumentSensitivity.Frequency must be < SampleRate/2
+3.414	4	META_IRIS_414		# metadata - StageGain.Frequency is zero in undue Stage
+3.416	4	META_IRIS_416		# metadata - missing InstrumentSensitivity in Response
+3.420	3	META_IRIS_420		# metadata - missing at least one Decimation in Stages
+3.421	4	META_IRIS_421		# metadata - output samplerate from Stages not equal to Channel.SampleRate
+3.422	4	META_IRIS_422		# metadata - samplerates do not follow in Stages
+4	5	META_RESP_FAIL		# metadata response failure
+4.01	5	META_NO_POLES		# metadata - no Poles in PolesZerosResponseStage
+4.02	5	META_LAST_STAGE_FAIL	# metadata - the last response stage is faulty
+4.03	3	META_REAL_POLE_POSITIVE	# metadata - real(Pole) >= 0 in the analog PolesZerosResponseStage
+4.04	5	META_POLES_NOT_CONJUG	# metadata - not conjugated Poles in the PolesZerosResponseStage
+4.05	3	META_BAND_SAMPL_RATE	# metadata - incorrect channel band due to sampling rate
+4.06	4	META_BAND_BB_SP		# metadata - channel band confusion in broadband and short-period
+4.07	2	META_CORNER_TABLE	# metadata - corner confusion between real and tabled values
