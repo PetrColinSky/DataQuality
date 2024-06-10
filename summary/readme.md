@@ -12,7 +12,7 @@ Detailed description of the tests performed by Johannes is available at [Johanne
 with the [maps](https://github.com/doukutsu/eida-data-monitoring/tree/main/months) showing the results of data retrievability for the AdriaArray region by months.
 
 ### Luděk Vecsey - formal StationXML checks
-Luděk performs detailed tests of formal consistency of the StationXML files, see the [description](https://github.com/PetrColinSky/DataQuality/tree/master/ludekvecsey) and [tables listing the issues](https://github.com/PetrColinSky/DataQuality/tree/master/ludekvecsey/REPORTS). Overview is given also in the [slides from the Sofia workshop](https://github.com/PetrColinSky/DataQuality/blob/master/ludekvecsey/Talk_Vecsey_MetadataQC.pdf).
+Luděk performs detailed tests of formal consistency of the StationXML files, see the [description](https://github.com/PetrColinSky/DataQuality/tree/master/ludekvecsey) and [tables listing the issues](https://github.com/PetrColinSky/DataQuality/tree/master/ludekvecsey/REPORTS). Overview is given also in the [slides from the Sofia workshop](https://github.com/PetrColinSky/DataQuality/blob/master/ludekvecsey/Talk_Vecsey_MetadataQC.pdf) and in [maps](https://github.com/PetrColinSky/DataQuality/tree/master/ludekvecsey/PICS).
 
 ### Felix Eckel - noise maps
 Overview of the methodology is available at [Felix' GitHub](https://github.com/felix-eckel/AdriaArrayQC). You can also check directly the [maps of noise levels](https://github.com/felix-eckel/AdriaArrayQC/tree/main/noise_maps).
@@ -23,9 +23,15 @@ Description of the testing procedure is here at [Petr's GitHub](https://github.c
 ## the summary table
 Different tests are performed using different codes and by different researchers. To easily see the performance of a given station, the results of the tests are summarized in an a table coded by Tena Belinić Topić. Every row corresponds to one station. The outputs of the individual tests are sorted by respective stations and aligned in the table by the station name. Every column then shows the result of a particular test. This table does not replace the detailed results of the individual tests, which are sometimes testing separate channels, or give more values on the output than can be implemented in a simple table. The table serves as a teaser for pointing the users and the station/network operators to the particular tests to find out, what exactly is the issue reported at their station of interest. Whenever a new test is performed, the table can be easily updated, either by replacing previous test, or by adding the new test to the right side of the table.
 
-The table lists 2008 stations in the moment and focuses on the AdriaArray region. We plan to add more stations in the future. The retrievability tests (Johannes) are shown for every month of the AdriaArray operational period since June 2022. Eight columns for each month correspond to the BH and HH channels for four parameters: WFCatalog availability, FDSNWS availability, metadata issue and retrievability. On the right side, three columns show the noise test (Felix) results for the three frequency bands, two other columns show the IRIS validator and corner period test (Luděk) and the last two columns are for the earthquake data quality tests (Petr). White cell means the given parameter was not tested for the particular station. Green means positive results, red is negative, yellow is intermediate or warning.
+We keep here the summary tables with the dates of publishing.
+
+### The 2024-04-17 table
+lists 2008 stations in the moment and focuses on the AdriaArray region. We plan to add more stations in the future. The retrievability tests (Johannes) are shown for every month of the AdriaArray operational period since June 2022. Eight columns for each month correspond to the BH and HH channels for four parameters: WFCatalog availability, FDSNWS availability, metadata issue and retrievability. On the right side, three columns show the noise test (Felix) results for the three frequency bands, two other columns show the IRIS validator and corner period test (Luděk) and the last two columns are for the earthquake data quality tests (Petr). White cell means the given parameter was not tested for the particular station. Green means positive results, red is negative, yellow is intermediate or warning.
+
+### The 2024-06-10
+table is updated with new tests by Luděk. These are given at the end of the table as 8 columns. Each 2 columns correspond for 4 dates of performing the tests. The first of the 2 columns always shows the test of the epochs for only the AdriaArray time period since the beginning of 2022, and the second column shows the results for all the epochs for the given station. Corner period test is not shown separately as it is included in the summarizing result of all the 8 tests.
 
 ## EIDA issue tracker
 There is a complementery issue posted at the [EIDA issue tracker](https://github.com/EIDA/userfeedback/issues/166). Some of the issues mentioned there can overlap with those marked in the particular tests, some are given in addition.
 
-this readme file was updated on June 03, 2024
+this readme file was updated on June 11, 2024
