@@ -34,4 +34,4 @@ from2022 - only issues from epochs lasting to the AdriaArray epoch (starting fro
 - NO - notifications (severity level 1)
 - WA - warnings (severity levels 2-3)
 
-See also explanation in Talk_Vecsey_MetadataQC.pdf.
+See also explanation in [Talk_Vecsey_MetadataQC.pdf](https://github.com/PetrColinSky/DataQuality/blob/master/ludekvecsey/Talk_Vecsey_MetadataQC.pdf).

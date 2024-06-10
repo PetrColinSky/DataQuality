@@ -18,7 +18,7 @@ OE.JAVC, GE.MORC, MN.DPC, ..., they are already included with their primary netw
 ## Reports of found issues
 
 ### QC_AdA_severity_levels_[yymmdd].csv 
-All issues are labeled with 6 grades depending on severity, see issue_id.txt and pages 4-5 in Talk_Vecsey_MetadataQC.pdf:
+All issues are labeled with 6 grades depending on severity, see [issue_id.txt](https://github.com/PetrColinSky/DataQuality/blob/master/ludekvecsey/issue_id.txt) and pages 4-5 in [Talk_Vecsey_MetadataQC.pdf](https://github.com/PetrColinSky/DataQuality/blob/master/ludekvecsey/Talk_Vecsey_MetadataQC.pdf):
 - -1 all tests ok
 - 0-1 only notifications
 - 2-3 warnings
@@ -29,7 +29,7 @@ The CSV file lists the most severe grades for each station in three columns:
 - #2: max severity in 2022+ epoch
 - #3: max severity over all epochs
 
-Files for older tests can be found in the REPORTS folder with the date yymmdd indicating when the test was performed.
+Files for older tests can be found in the [REPORTS](https://github.com/PetrColinSky/DataQuality/tree/master/ludekvecsey/REPORTS) folder with the date yymmdd indicating when the test was performed.
 
 ### QC_AdA_metadata_issues.xlsx
 Main output file. Each run of tests has its sheet marked by the date, the last is the most left. Issues are 
