@@ -12,7 +12,7 @@ Detailed description of the tests performed by Johannes is available at [Johanne
 with the [maps](https://github.com/doukutsu/eida-data-monitoring/tree/main/months) showing the results of data retrievability for the AdriaArray region by months.
 
 ### Luděk Vecsey - formal StationXML checks
-Luděk performs detailed tests of formal consistency of the StationXML files, see the [description](https://github.com/PetrColinSky/DataQuality/tree/master/ludekvecsey) and [tables listing the issues](https://github.com/PetrColinSky/DataQuality/tree/master/ludekvecsey/REPORTS). Overview is given also in the [slides from the Sofia workshop](https://github.com/PetrColinSky/DataQuality/blob/master/ludekvecsey/Talk_Vecsey_MetadataQC.pdf) and in [maps](https://github.com/PetrColinSky/DataQuality/tree/master/ludekvecsey/PICS).
+Luděk performs detailed tests of formal consistency of the StationXML files, see the [description](https://github.com/PetrColinSky/DataQuality/tree/master/ludekvecsey) and [table listing the issues](https://github.com/PetrColinSky/DataQuality/blob/master/ludekvecsey/QC_AdA_metadata_issues.xlsx). Overview is given also in the [slides from the Sofia workshop](https://github.com/PetrColinSky/DataQuality/blob/master/ludekvecsey/Talk_Vecsey_MetadataQC.pdf) and in [maps](https://github.com/PetrColinSky/DataQuality/tree/master/ludekvecsey/PICS).
 
 ### Felix Eckel - noise maps
 Overview of the methodology is available at [Felix' GitHub](https://github.com/felix-eckel/AdriaArrayQC). You can also check directly the [maps of noise levels](https://github.com/felix-eckel/AdriaArrayQC/tree/main/noise_maps).
